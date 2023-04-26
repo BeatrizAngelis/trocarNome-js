@@ -1,0 +1,34 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+    flex-direction: column;
+}
+    p {
+      font-family: "helvetica neue", helvetica, sans-serif;
+      font-size: 24px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: center;
+        border-radius: 10px;
+      padding: 3px 10px;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .player1{
+        background: red;
+        color: rgb(255 255 255 / 1);
+        border: 2px solid red;
+        box-shadow: 1px 1px 2px red;
+    }
+
+    .player2{
+        border: 2px solid blue;
+        background: blue;
+        color: rgb(255 255 255 / 1);
+        box-shadow: 1px 1px 2px blue;
+    }
